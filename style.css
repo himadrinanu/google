@@ -1,0 +1,31 @@
+#main-div{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+/* #searchBtn:hover, #luckyBtn:hover{
+    border: 1px solid rgb(173, 163, 163);
+} */
+
+.on_hover:hover{
+    border: 1px solid rgb(173, 163, 163);
+}
+#input{
+    position: relative;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 50px;
+}
+#search,#mic{
+    color: #9AA0A6;
+}
+.navbar-nav{
+    flex-direction: row;
+}
